@@ -22,7 +22,7 @@
 git clone https://github.com/teafrogsf/SI100Plus.git
 cd SI100Plus
 npm install -g reveal-md
-reveal-md Lecture_01_Python_Intro/Lecture_01_Python_Intro.md -w
+reveal-md -w --template ./assets/reveal.html --preprocessor ./assets/preproc.js --scripts assets/menu/menu.js,assets/inject.js .
 # 更改上面的路径即可预览其他课件
 ```
 
